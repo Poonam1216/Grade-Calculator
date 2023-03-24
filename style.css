@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.heading{
+    text-align: left;
+}
+
+.subheading{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    width: 55%;
+}
+
+.form{
+    background-color: white;
+    color: black;
+}
+
+.subject{
+    padding-left: 2%;
+    text-align: justify;
+}
+
+.sub{
+    margin-left: 30%;
+    text-align: center;
+    width: 69%;
+}
+
+.form-button{
+    background-color: pink;
+    text-align: center;
+    position: relative;
+}
+
+.result{
+    margin-left: 49%;
+    margin-right: 49%;
+    border: 1px solid red;
+}
+
+
+.showdata{
+    background-color: black
+}

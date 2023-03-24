@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GRADE CALCULATOR</title>
+</head>
+<body>
+
+    <h1 class="heading"> GRADE CALCULATOR</h1>
+
+    <div  class="subheading">
+        <h3>Grading System in JS</h3>
+        <div class="form"> 
+            <div class="subject">English <input type="text" placeholder="Type your Marks in English" id="english" class="sub"></div>  
+            <div class="subject">Maths <input type="text" placeholder="Type your Marks in Maths" id="maths" class="sub"></div> 
+            <div class="subject">Physics <input type="text" placeholder="Type your Marks in Physics" id="physics" class="sub"></div> 
+            <div class="subject">Chemistry <input type="text" placeholder="Type your Marks in Chemistry" id="chemistry" class="sub"></div> 
+            <div class="subject">Computer <input type="text" placeholder="Type your Marks in Computer" id="computer" class="sub"></div> 
+        </div>
+       
+    </div>
+    <div><input type="button" value="Calculate Grade" class="form-button" onclick="calculator()"></div>
+
+
+
+    
+    <div id="result">
+        <div>
+        <h3 class="subheading">Total</h3>
+        <div id="total"> </div>
+        </div>
+
+    <div>
+        <h3 class="subheading">Average</h3>
+        <div id="average"></div>
+    </div>
+
+    <div>
+        <h3 class="subheading">Grade</h3>
+        <div id="grade"></div>
+    </div>
+
+    <div class="showdata">
+        <p id="showdata"> </p>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
